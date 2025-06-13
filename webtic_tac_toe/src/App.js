@@ -1,6 +1,8 @@
 import React from 'react';
 import './App.css';
+import TicTacToe from './TicTacToe';
 
+// PUBLIC_INTERFACE
 function App() {
   return (
     <div className="app">
@@ -17,6 +19,7 @@ function App() {
 
       <main>
         <div className="container">
+          {/* Main hero section */}
           <div className="hero">
             <div className="subtitle">AI Workflow Manager Template</div>
             
@@ -32,6 +35,8 @@ function App() {
                 color: '#ffffff'
               }}>Buttonnn</button>
           </div>
+          {/* --- TicTacToe Game Section --- */}
+          <TicTacToe />
         </div>
       </main>
     </div>
